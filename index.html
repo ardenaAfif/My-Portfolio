@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/my-logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <section>
+      <!-- Navbar Start -->
+      <nav>
+        <!-- Logo -->
+        <a href="#" class="logo"
+          ><img src="assets/my-logo.png" alt="logoku"
+        /></a>
+        <!-- Menu -->
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#contact-me" class="contact">Contact Me</a></li>
+        </ul>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Text -->
+
+      <div class="text-container">
+        <p>Hi,</p>
+        <p>I'm Ardena Afif</p>
+        <p>
+          I am an UI/UX Designer <br />
+          and Software Engineer
+        </p>
+        <a href="#about"><button class="kepoin">More About me</button></a>
+      </div>
+
+      <!-- Fotoku -->
+      <img src="assets/me.png" alt="aku wkwkwk" class="fotoku" />
+    </section>
+
+    <!-- About Start -->
+    <div class="about-container" id="about">
+      <!-- About-img -->
+      <img src="assets/about-me.png" alt="aku" />
+      <!-- About-Text -->
+      <div class="about-text">
+        <p>About Me</p>
+        <p>Designer & Developer</p>
+        <p>
+          I am a Computer Science student at UNIDA Gontor, I have an interest in
+          the field of Mobile Apps and Machine Learning, I enjoy learning new
+          things and like to get challenges to solve. I am a lifetime learner
+          who is always curious about new things.
+        </p>
+        <p>
+          I am highly skilled in design tools such as Canva, Figma and Protopie.
+          I have a strong understanding of user experience principles and user
+          interface design best practices.
+        </p>
+        <a href="#contact-me"><button>Hire Me</button></a>
+        <a href="file/CV-ardena.pdf" class="download-cv"
+          ><button>Download CV</button></a
+        >
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Skills Start -->
+    <div class="skills" id="skill">
+      <div class="skill-container">
+        <div class="skill-top">
+          <h3 class="section-title">What I Do</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ipsum
+            nibh, luctus nec sem porttitor, bibendum viverra quam. Curabitur at
+            massa lacus. Etiam quis lacus ornare neque ultricies tristique in
+            nec lectus. Ut massa tellus, rutrum a egestas et, pulvinar eget
+            quam. Vivamus ornare erat enim, et bibendum diam ultrices id. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique
+            aliquet pellentesque.
+          </p>
+        </div>
+        <div class="skill-bottom">
+          <div class="card-container">
+            <div class="card">
+              <img src="assets/ui-ux.png" alt="UI/UX Design" />
+              <h3>UI/UX Design</h3>
+              <p>
+                Creating intuitive and appealing user interface designs for web
+                and mobile applications.
+              </p>
+            </div>
+
+            <div class="card">
+              <img src="assets/web-icon.png" alt="Web Development" />
+              <h3>Web Development</h3>
+              <p>
+                Developing websites and web applications using various
+                programming languages such as HTML, CSS, JavaScript and PHP.
+              </p>
+            </div>
+
+            <div class="card">
+              <img src="assets/mobile.png" alt="Mobile Apps" />
+              <h3>Mobile Apps</h3>
+              <p>
+                Developing mobile applications for iOS and Android operating
+                systems using programming languages such as Swift or Java.
+              </p>
+            </div>
+
+            <div class="card">
+              <img src="assets/ai.png" alt="Machine Learning" />
+              <h3>Machine Learning</h3>
+              <p>
+                Applying algorithms and machine learning techniques to solve
+                complex problems and improve system performance automatically.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Skills End -->
+
+    <!-- Contact Start -->
+    <div class="contact-me" id="contact-me">
+      <div class="contact-txt">
+        <div class="jdl-contact">
+          <h3>Contact Me</h3>
+          <p>
+            Thanks for your visit <br />If you want to collaborate or request a
+            price quote, please fill out the form below and we will contact you
+            shortly.
+          </p>
+        </div>
+      </div>
+      <form class="contact-form">
+        <div class="form-control">
+          <label for="name">Full Name <span>*</span></label>
+          <input type="text" id="full-name" name="" required />
+        </div>
+        <div class="form-control">
+          <label for="email">Email Address <span>*</span></label>
+          <input type="email" id="email" name="" required />
+        </div>
+        <div class="form-control">
+          <label for="phone">Your Message <span>*</span></label>
+          <textarea required></textarea>
+        </div>
+        <div class="form-control">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="footer">
+        <h3>@Copyright 2022 - Ardena Corp</h3>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Scroll On Top Start -->
+    <button id="scroll-top-button" onclick="scrollToTop()">
+      <img src="assets/slide-up.png" alt="up" />
+    </button>
+    <!-- Scroll On Top End -->
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+    <script>
+      $(window).scroll(function () {
+        if ($(window).scrollTop()) {
+          $("nav").addClass("sticky");
+        } else {
+          $("nav").removeClass("sticky");
+        }
+      });
+
+      const scrollToTopButton = document.getElementById("scroll-top-button");
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 100) {
+          scrollToTopButton.style.display = "block";
+        } else {
+          scrollToTopButton.style.display = "none";
+        }
+      });
+
+      scrollToTopButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>
